@@ -17,12 +17,12 @@ html {
 
 #grain-left {
   float: left;
-  width: 5%;
+  width: 40px;
 }
 
 #grain-right {
   float: right;
-  width: 5%;
+  width: 40px;
 }
 h1 {
   text-align: center;
