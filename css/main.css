@@ -1,53 +1,62 @@
 html {
   box-sizing: border-box;
-  background-color: #d05c2e;
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
-  padding: 0;
-  margin: 0;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
-.wepageTitle {
-  border-bottom: 2px #a63f38 solid;
-  display: inline;
-}
 
-#grain-left {
-  float: left;
-  width: 40px;
-}
-
-#grain-right {
-  float: right;
-  width: 40px;
-}
-h1 {
-  text-align: center;
+body {
   margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  text-align: center;
   color: #fff;
+  display: block;
+}
+
+img {
+  width: 40px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.webpage-title {
+  display: flex;
+  justify-content: space-between;
+  padding: .4rem 0;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  font-size: 1.125rem;
+  padding: 0;
 }
 
 nav li {
-  padding: .4rem 0;
-  margin: 0;
+  width: 33.33%;
+  text-align: center;
   display: inline-block;
-  text-decoration: none;
-  text-align: center;
 }
 
-nav ul {
-  border-bottom: 2px #a63f38 solid;
-  display: block;
-  list-style-type: none;
-  text-align: center;
-}
-
-a {
-  text-align: center;
-  border-bottom 2px #a63f38 solid;
+nav a {
   text-decoration: none;
   color: #fff;
+  display: block;
+  padding: .5em .5em;
+  border: 1px #a63f38 solid;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
 }
